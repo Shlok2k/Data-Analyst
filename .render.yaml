@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: genz-career-dashboard
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn aap:server
+    pythonVersion: 3.9.18
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18 
