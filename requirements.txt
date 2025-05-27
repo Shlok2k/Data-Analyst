@@ -5,4 +5,5 @@ seaborn==0.13.0
 matplotlib==3.8.2
 numpy==1.26.2
 requests==2.31.0
-gunicorn==21.2.0 
+gunicorn==21.2.0
+waitress==3.0.0 
