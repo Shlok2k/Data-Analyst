@@ -453,16 +453,17 @@ def toggle_info(n, style):
 def toggle_info_workenv(n, style):
     print(f"Button clicked! n={n}, style={style}")
     return toggle_display(n, style)
-if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
-    server = app.server
+# This is for Gunicorn
+application = app.server
+
+# This is for local development
+if __name__ == "__main__":
     from waitress import serve
-    PORT = 8051  # Change this if needed
     print("Starting production server...")
-    print(f"Server will be available at:")
-    print(f"http://127.0.0.1:{PORT}")
-    print(f"http://192.168.29.243:{PORT}")
+    print("Server will be available at:")
+    print("http://127.0.0.1:8050")
+    print("http://192.168.29.243:8050")
     print("Press CTRL+C to stop the server")
-    serve(server, host='0.0.0.0', port=PORT, threads=4)
-# finished # finished
+    serve(application, host='0.0.0.0', port=8050, threads=4)
+# finished
 
