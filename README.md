@@ -20,26 +20,25 @@ An interactive and animated analytics dashboard built using **Plotly Dash**, sho
 - Python 🐍
 - Dash by Plotly 📊
 - HTML/CSS for styling 🎨
-- Bootstrap for layout 📐
-- Dash Core Components and HTML Components
+- Dash Core Components and HTML Components.
 
 ---
 
-## 🖼️ Demo Screenshots
+## 🖼️ Demo Screenshots--
 
-### 1️⃣ Dashboard Overview
+### 1️⃣ Demographics.
 ![Dashboard Overview](images/dashboard.png)
 
-### 2️⃣ Graph Interactions
+### 2️⃣ Career Influences & Education.
 ![Graph Interactions](images/Dashboard_two.png)
 
-### 3️⃣ Animated Transitions
+### 3️⃣ Employer Preferences.
 ![Animated Transitions](images/dashboard_three.png)
 
-### 4️⃣ Responsive Layout
+### 4️⃣ Work Environment.
 ![Responsive Layout](images/dashboard_four.png)
 
-### 5️⃣ Theme and Color Palette
+### 5️⃣ Career Aspirations.
 ![Theme and Color](images/dashboard_five.png)
 
 
